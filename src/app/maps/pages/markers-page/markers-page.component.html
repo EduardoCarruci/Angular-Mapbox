@@ -1,7 +1,7 @@
-<div id="map" #map></div>
+<div #map></div>
 
 <ul class="list-group">
-  <li *ngFor="let marker of markers; let i = index" class="list-group-item">
+  <li *ngFor="let marker of markerData; let i = index" class="list-group-item">
     Marker {{ i + 1 }}
   </li>
 </ul>
